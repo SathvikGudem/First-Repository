@@ -1,0 +1,23 @@
+Data type		Bytes
+boolean		2bytes
+char/unsigned char	1byte
+short/unsigned short	2bytes
+int/unsigned int	4bytes
+float		4bytes
+long/unsigned long	8bytes(for 64bit OS), 4bytes(for 32bit OS)
+double		8bytes	
+--------------------------------------------------------------------------
+For inputting char data type in Java
+char ch = sc.next().charAt(0);
+---------------------------------------------------------------------------
+For right shift of bits in Java
+a = a >> 1;
+---------------------------------------------------------------------------
+For using min and max functions in Java
+Math.min(c,d);
+Math.max(a,b);
+--------------------------------------------------------------------------
+For using integer max value and min value in Java
+Integer.MAX_VALUE;
+Integer.MIN_VALUE;
+[-2power31, 2power31 - 1] - Range of Integer
