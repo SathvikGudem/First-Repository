@@ -1,0 +1,29 @@
+git clone <repository URI> : for cloning repository into our local workspace
+git remote add <Alias> <repository URI> : for naming the repository URI with some alias name
+git remote -v : for displaying the current repository
+git pull : for pulling the updated code
+git status : for checking status of the updated, uncommitted and untracked files
+cat <filename> : for displaying the content in the file
+git add <file name> : for staging the updated files
+git add <file1 name> <file2 name> : for staging more than one updated file
+git add . : for staging all the updated files at a time
+git add --all : for staging all unupdated and updated files at a time
+git restore --staged <file name> : for unstaging the staged files
+git init : for creating empty repository through command line interface
+git commit -m "<comment>" : for committing the staged files
+git push <Alias><master branch name> : for pushing the committed files to master branch
+git branch : for getting all branches in the repository
+git branch <branchname> : for creating a new branch
+git checkout <branchname> : for changing branch
+git checkout -b <branchname> : for creating and changing branch at the same time
+git branch -m <oldname> <newname> : for changing branch name/ for changing current branch name
+git log : for the displaying all the commits
+git merge <branch name from which you want to merge> : for merging one branch with another
+----------While merging you need to write a comment for merge or else click on esc then type :wq //(write and quit)// and click enter-----------
+----------If you add any file name in .gitignore file then no one can commit that file to the repository------------------
+----------If you want some type of files to restrict from committing to the repository then add *.file type in .gitignore file Ex: Abcd.txt is the file then you should
+add *.txt in .gitignore file then commit .gitignore file and push to the repository, now no one can commit any .txt files to the repository---------------
+ls : for displaying all the files/ repositories/ folders etc.
+ls -la : for displaying hidden files and non-hidden files
+clear : for clearing the screen and displaying the new screen
+

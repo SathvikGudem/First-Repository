@@ -1,0 +1,35 @@
+import java.util.*;
+6
+123456654321
+12345**54321
+1234****4321
+123******321
+12********21
+1**********1
+
+Code:
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner sc = new Scanner(System.in);
+	    int n=sc.nextInt();
+	    for(int i=1;i<=n;i++){
+	        for(int j=1;j<=n-i+1;j++){
+	            System.out.print(j);
+	        }
+	        int star=(2*n)-(2*(n-i+1));
+	        int max=star+(n-i+1);
+	        for (int j=(n-i+2);j<=max ;j++ ){
+	            System.out.print("*");
+	        } 
+	        int value=n-i+1;
+	        for(int j=max+1;j<=(2*n);j++){
+	            System.out.print(value);
+	            value--;
+	            
+	        }
+	        System.out.println();
+	    }
+		
+	}
+}
