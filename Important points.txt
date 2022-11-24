@@ -21,3 +21,7 @@ For using integer max value and min value in Java
 Integer.MAX_VALUE;
 Integer.MIN_VALUE;
 [-2power31, 2power31 - 1] - Range of Integer
+--------------------------------------------------------------------------
+For sorting array
+Arrays.sort(arrayname)
+Ex: Arrays.sort(ar)
